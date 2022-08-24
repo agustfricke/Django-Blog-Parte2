@@ -1,0 +1,20 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+<br>
+
+{% for p in publicaciones %} <br>
+
+<div class="card">
+    <h5 class="card-header">{{ p.titulo }}</h5>
+    <div class="card-body">
+      <h5 class="card-title">Contacto: {{ p.email }}</h5>
+      <p class="card-text">{{ p.descripcion }}</p>
+      <a href="{% url 'eliminar' p.id %}" class="btn btn-danger">Eliminar</a>
+      <a href="{% url 'actualizar' p.id %}" class="btn btn-success">Actualizar</a>
+    </div>
+  </div>
+
+{% endfor %}
+
+{% endblock %}
