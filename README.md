@@ -1,6 +1,5 @@
-# Django-Blog-Parte2
+# Django Blog Parte 2
 
-# Django-Blog-Parte1
 Video de YouTube --> https://www.youtube.com/watch?v=0ApBpMOeHvg&t=1388s
 
 ## Tienes algo en mente? Contactame!
